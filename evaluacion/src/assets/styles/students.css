@@ -1,0 +1,206 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container_student{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E7E9;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    background-color: #2E4053
+    /* border: 5px solid blue; */
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+#capa1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3rem;
+}
+#rol{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    padding-left: 1rem;
+}
+#r1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#letra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+    width: 100%;
+    height: 3rem;
+}
+#h1{
+color: #bababade;
+font-family: Arial, Helvetica, sans-serif;
+}
+#h2{
+    color: #f08c34; 
+}
+#h3{
+    color: #f08c34;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#capa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 12rem);
+}
+section{
+
+    width: 92%;
+    height: 95%;
+    border-radius: 5px;
+ background-color: #ffffff;
+ -webkit-box-shadow: 6px 4px 10px 2px #BABABA;
+ -moz-box-shadow: 6px 4px 10px 2px #BABABA;
+ box-shadow: 6px 4px 10px 2px #BABABA;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    background-color: #E5E7E9;
+}
+#texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#k1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4rem;
+    /* border: 3px solid green; */
+}
+#cont-est{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: calc(100% - 11rem);
+ 
+}
+#estudiantes{
+width: 98%;
+overflow-y: scroll;
+border: 1px solid #BABABA;
+
+
+}
+#ultima{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+justify-content: flex-end;
+padding-right: 1rem;
+}
+#drop{
+    background-color: transparent;
+    color: #BABABA;   
+}
+
+td{
+    border-bottom: 1px solid #BABABA;
+}
+th{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #BABABA;
+}
+.inpu {
+    display: flex;
+    padding-left: 0.5rem !important;
+    background-color: #F2F3F4  !important;
+    border-bottom: none !important;
+    
+}
+#i1{
+ 
+    width: 30%;
+    padding-left: 1rem;
+}
+
+#caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #f08c34;
+    margin-right: 1rem;
+}
+#caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+   border:1px solid#f08c34;
+   margin-right: 1rem;
+}
+#previ1{
+    margin-right: 1rem;
+    color: gray;
+}
+#le{
+    color: gray; 
+}
+#ray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 100% !important;
+}
+#arriba{
+    width: 100%;
+    height: 4rem;
+    background-color: #ffc107 ;
+}
+.lado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    height: 4rem;
+   border-bottom: 2px solid #34495E;
+   color: #ffffff;
+}
